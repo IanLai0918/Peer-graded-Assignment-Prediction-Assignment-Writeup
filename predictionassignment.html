@@ -182,8 +182,8 @@ validSet &lt;- rawtrainSet[-trainind,]</code></pre>
 <div id="model-building" class="section level2">
 <h2>Model building</h2>
 <p>We would use three methods, random forest, multinormial logistic regression and linear discriminant analysis to build models and select the best one out from them.</p>
-<div id="data-split" class="section level3">
-<h3>Data Split</h3>
+<div id="cross-validation" class="section level3">
+<h3>Cross Validation</h3>
 <p>To eliminate bias and overfitting when selecting the best models, we would do a data split of 80% for training and the rest for testing. The model with the lowest average error from is the best model.</p>
 <pre><code>## Warning: package 'randomForest' was built under R version 3.3.3</code></pre>
 <pre><code>## randomForest 4.6-12</code></pre>
